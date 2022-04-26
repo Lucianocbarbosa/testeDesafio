@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
 import { CreatePostComponent } from './components/post/create-post/create-post.component';
 import { DetailsPostComponent } from './components/post/details-post/details-post.component';
 import { ReadPostComponent } from './components/post/read-post/read-post.component';
@@ -17,7 +18,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     SidebarComponent,
     ReadPostComponent,
     CreatePostComponent,
-    DetailsPostComponent
+    DetailsPostComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

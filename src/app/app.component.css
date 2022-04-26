@@ -8,7 +8,7 @@ header {
 }
 app-navigation {
   position: absolute;
-  top: 0;
+  top: -6px;
   right: 0;
 }
 
@@ -37,5 +37,10 @@ section {
 
   aside {
     width: 100%;
+  }
+
+  app-navigation {
+    right: auto;
+    font-size: x-small;
   }
 }

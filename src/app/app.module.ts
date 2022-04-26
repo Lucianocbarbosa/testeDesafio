@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreatePostComponent } from './components/post/create-post/create-post.component';
+import { DetailsPostComponent } from './components/post/details-post/details-post.component';
 import { ReadPostComponent } from './components/post/read-post/read-post.component';
 import { SearchAreaComponent } from './components/search-area/search-area.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
@@ -15,7 +16,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     SearchAreaComponent,
     SidebarComponent,
     ReadPostComponent,
-    CreatePostComponent
+    CreatePostComponent,
+    DetailsPostComponent
   ],
   imports: [
     BrowserModule,

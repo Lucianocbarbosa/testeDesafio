@@ -1,0 +1,50 @@
+.sidebarContent {
+  width: 100%;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  padding-bottom: 9px;
+  color: black;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  padding: 9px 0;
+  border-bottom: 1px solid;
+}
+
+.inputSearch strong {
+  display: block;
+}
+.inputSearch {
+  padding: 24px 0;
+}
+
+input {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebarContent {
+    width: 100%;
+  }
+}

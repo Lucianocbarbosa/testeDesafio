@@ -16,7 +16,6 @@ main {
 aside {
   display: flex;
   width: 350px;
-  background-color: lightblue;
   justify-content: center;
 }
 

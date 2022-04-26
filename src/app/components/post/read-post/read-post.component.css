@@ -1,0 +1,61 @@
+/* Flutuar quatro colunas lado a lado */
+.column {
+  float: left;
+  width: 50%;
+  height: 550px;
+  padding: 9px;
+  position: relative;
+}
+
+/* Limpar floats após as colunas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Estilo do Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(94, 94, 94, 0.555);
+  padding: 0 0 16px 0;
+  background-color: #fff;
+  border-radius: 6px;
+  height: 100%;
+}
+.card img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+.card .bottomCard {
+  padding: 9px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+.card .bottomCard .bottomText {
+  padding-bottom: 9px;
+  color: black;
+  margin: 5px 0;
+}
+.card .bottomCard .abstractText {
+  padding-bottom: 9px;
+  display: block;
+}
+.card .bottomCard a {
+  text-decoration: none;
+  color: rgb(19, 121, 218);
+  font-weight: bolder;
+  font-size: medium;
+  position: absolute;
+  bottom: 21px;
+  left: 21px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

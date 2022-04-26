@@ -1,0 +1,17 @@
+<!-- INÍCIO CARD -->
+<div *ngFor="let post of posts" class="column">
+  <div class="card">
+    <div class="media">
+      <img
+        src="https://static.biologianet.com/2020/03/covid.jpg"
+        alt="Capa da notícia"
+      />
+    </div>
+    <div class="bottomCard">
+      <h3 class="bottomText">{{ post.title }}</h3>
+      <span class="abstractText">{{ post.body }}</span>
+      <a routerLink="/read/{{ post.id }}">Ler mais</a>
+    </div>
+  </div>
+</div>
+<!-- CARD FIM -->

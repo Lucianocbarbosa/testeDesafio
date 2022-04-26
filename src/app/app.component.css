@@ -6,6 +6,11 @@ header {
   justify-content: center;
   text-align: center;
 }
+app-navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 main {
   display: flex;

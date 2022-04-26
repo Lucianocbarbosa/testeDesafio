@@ -1,0 +1,16 @@
+<div class="create">
+  <label for="title">Título da notícia</label>
+  <input id="title" [(ngModel)]="title" placeholder="Título..." type="text" />
+
+  <label for="body">Descrição</label>
+  <textarea
+    id="body"
+    [(ngModel)]="body"
+    placeholder="Descrição..."
+    type="textarea"
+  ></textarea>
+
+  <div class="action">
+    <button (click)="back()">Voltar</button>
+  </div>
+</div>
